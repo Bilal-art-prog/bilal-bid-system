@@ -1,0 +1,12 @@
+-- Insert sample capability_library data
+INSERT INTO capability_library (type, title, description, relevance_score, details) VALUES
+('experience', 'Enterprise Software Portfolio', '14 years of enterprise software development across industries', 98, '{"yearsActive": 14, "projectsDelivered": 250, "industries": ["Finance", "Healthcare", "Government", "Retail"]}'),
+('project', 'TechCorp Cloud Migration', 'Large-scale cloud migration for Fortune 500 client', 95, '{"client": "TechCorp Industries", "year": "2024", "value": "$2.8M", "services": ["Assessment", "Migration", "Optimization"]}'),
+('certification', 'ISO 27001:2013', 'Information Security Management System certification', 100, '{"certBody": "BSI Group", "validUntil": "2027-06-15", "scope": "Software development and cloud services"}'),
+('project', 'Enterprise Portal for Global Finance', 'Digital transformation of customer portal', 92, '{"client": "Global Finance Ltd", "year": "2023", "value": "$1.9M", "users": "50,000+", "uptime": "99.97%"}'),
+('project', 'MedCare Platform Modernization', 'Healthcare platform rebuild and migration', 88, '{"client": "MedCare Systems", "year": "2024", "value": "$3.1M", "compliance": "HIPAA, SOC 2"}'),
+('certification', 'AWS Advanced Partner', 'AWS Partner Network Advanced Consulting Partner', 95, '{"partnerSince": "2019", "competencies": ["Cloud Migration", "DevOps", "Security"]}'),
+('certification', 'SOC 2 Type II', 'Service Organization Control 2 Type II attestation', 100, '{"auditFirm": "Deloitte", "validUntil": "2026-12-31", "trustServices": ["Security", "Availability", "Confidentiality"]}'),
+('experience', 'Government Sector Experience', 'Extensive government project delivery experience', 90, '{"projects": 45, "agencies": ["DoD", "HHS", "DHS", "VA"], "clearanceLevel": "Secret"}'),
+('resource', 'Cloud Architecture Team', 'Dedicated cloud architecture team', 85, '{"teamSize": 12, "avgExperience": "8 years", "certifications": ["AWS SA Pro", "Azure Expert", "GCP Professional"]}'),
+('resource', 'Security Team', 'Information security specialists', 88, '{"teamSize": 8, "specializations": ["Penetration Testing", "Compliance", "Incident Response"], "certifications": ["CISSP", "CISM", "CEH"]}');
